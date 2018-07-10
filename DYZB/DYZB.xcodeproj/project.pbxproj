@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A160F90320F4F4F000AD8767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160F90220F4F4F000AD8767 /* AppDelegate.swift */; };
-		A160F90520F4F4F000AD8767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160F90420F4F4F000AD8767 /* ViewController.swift */; };
 		A160F90820F4F4F000AD8767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A160F90620F4F4F000AD8767 /* Main.storyboard */; };
 		A160F90A20F4F4F200AD8767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A160F90920F4F4F200AD8767 /* Assets.xcassets */; };
 		A160F90D20F4F4F200AD8767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A160F90B20F4F4F200AD8767 /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		A160F8FF20F4F4F000AD8767 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A160F90220F4F4F000AD8767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A160F90420F4F4F000AD8767 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A160F90720F4F4F000AD8767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A160F90920F4F4F200AD8767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A160F90C20F4F4F200AD8767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +95,8 @@
 		A160F90120F4F4F000AD8767 /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
+				A160F93020F507FE00AD8767 /* Classes */,
 				A160F90220F4F4F000AD8767 /* AppDelegate.swift */,
-				A160F90420F4F4F000AD8767 /* ViewController.swift */,
 				A160F90620F4F4F000AD8767 /* Main.storyboard */,
 				A160F90920F4F4F200AD8767 /* Assets.xcassets */,
 				A160F90B20F4F4F200AD8767 /* LaunchScreen.storyboard */,
@@ -123,6 +121,61 @@
 				A160F92420F4F4F200AD8767 /* Info.plist */,
 			);
 			path = DYZBUITests;
+			sourceTree = "<group>";
+		};
+		A160F93020F507FE00AD8767 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A160F93620F507FE00AD8767 /* Main */,
+				A160F93120F507FE00AD8767 /* Home */,
+				A160F93520F507FE00AD8767 /* Live */,
+				A160F93320F507FE00AD8767 /* Follow */,
+				A160F93420F507FE00AD8767 /* Profile */,
+				A160F93220F507FE00AD8767 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A160F93120F507FE00AD8767 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A160F93220F507FE00AD8767 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A160F93320F507FE00AD8767 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		A160F93420F507FE00AD8767 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A160F93520F507FE00AD8767 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		A160F93620F507FE00AD8767 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A160F90520F4F4F000AD8767 /* ViewController.swift in Sources */,
 				A160F90320F4F4F000AD8767 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2ESPK67ZT;
 				INFOPLIST_FILE = DYZB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2ESPK67ZT;
 				INFOPLIST_FILE = DYZB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

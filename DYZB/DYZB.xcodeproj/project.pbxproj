@@ -13,6 +13,10 @@
 		A160F90D20F4F4F200AD8767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A160F90B20F4F4F200AD8767 /* LaunchScreen.storyboard */; };
 		A160F91820F4F4F200AD8767 /* DYZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160F91720F4F4F200AD8767 /* DYZBTests.swift */; };
 		A160F92320F4F4F200AD8767 /* DYZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160F92220F4F4F200AD8767 /* DYZBUITests.swift */; };
+		A160F93920F5124600AD8767 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A160F93720F5124600AD8767 /* Home.storyboard */; };
+		A160F93B20F5130100AD8767 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A160F93A20F5130100AD8767 /* Follow.storyboard */; };
+		A160F93D20F5134300AD8767 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A160F93C20F5134300AD8767 /* Live.storyboard */; };
+		A160F93F20F513A100AD8767 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A160F93E20F513A100AD8767 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		A160F91E20F4F4F200AD8767 /* DYZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A160F92220F4F4F200AD8767 /* DYZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYZBUITests.swift; sourceTree = "<group>"; };
 		A160F92420F4F4F200AD8767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A160F93820F5124600AD8767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYZB/Classes/Main/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		A160F93A20F5130100AD8767 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		A160F93C20F5134300AD8767 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		A160F93E20F513A100AD8767 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +105,6 @@
 			children = (
 				A160F93020F507FE00AD8767 /* Classes */,
 				A160F90220F4F4F000AD8767 /* AppDelegate.swift */,
-				A160F90620F4F4F000AD8767 /* Main.storyboard */,
 				A160F90920F4F4F200AD8767 /* Assets.xcassets */,
 				A160F90B20F4F4F200AD8767 /* LaunchScreen.storyboard */,
 				A160F90E20F4F4F200AD8767 /* Info.plist */,
@@ -153,6 +160,7 @@
 		A160F93320F507FE00AD8767 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				A160F93A20F5130100AD8767 /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -160,6 +168,7 @@
 		A160F93420F507FE00AD8767 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				A160F93E20F513A100AD8767 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -167,6 +176,7 @@
 		A160F93520F507FE00AD8767 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				A160F93C20F5134300AD8767 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -174,6 +184,8 @@
 		A160F93620F507FE00AD8767 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				A160F93720F5124600AD8767 /* Home.storyboard */,
+				A160F90620F4F4F000AD8767 /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -282,9 +294,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A160F93B20F5130100AD8767 /* Follow.storyboard in Resources */,
 				A160F90D20F4F4F200AD8767 /* LaunchScreen.storyboard in Resources */,
 				A160F90A20F4F4F200AD8767 /* Assets.xcassets in Resources */,
+				A160F93D20F5134300AD8767 /* Live.storyboard in Resources */,
 				A160F90820F4F4F000AD8767 /* Main.storyboard in Resources */,
+				A160F93F20F513A100AD8767 /* Profile.storyboard in Resources */,
+				A160F93920F5124600AD8767 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +375,14 @@
 				A160F90C20F4F4F200AD8767 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A160F93720F5124600AD8767 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A160F93820F5124600AD8767 /* Base */,
+			);
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
